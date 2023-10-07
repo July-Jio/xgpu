@@ -44,7 +44,7 @@ chmod +x build.sh
 sleep 5
 echo "---------------------------"
 
-./build.sh -cuda_arch sm_89
+./build.sh
 sleep 5
 echo "---------------------------"
 
