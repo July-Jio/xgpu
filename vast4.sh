@@ -74,4 +74,6 @@ sudo nohup ./xengpuminer -d3 > xengpuminer-3.log 2>&1 &
 sleep 5
 echo "---------------------------"
 
-sudo wget https://raw.githubusercontent.com/July-Jio/xgpu/main/tmux.sh && sudo chmod +x tmux.sh && sudo ./tmux.sh
+# sudo wget https://raw.githubusercontent.com/July-Jio/xgpu/main/tmux.sh && sudo chmod +x tmux.sh && sudo ./tmux.sh
+sleep 5
+tail -f /root/XENGPUMiner/miner.log
