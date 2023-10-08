@@ -45,7 +45,7 @@ sleep 5
 echo "---------------------------"
 
 # Update the configuration file
-sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0xca5F023af4F822353A563Ae6a3591bA2024495E8/g' config.conf
+sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0x056640dBeA17979292BC0056A3eE7E259AD03927/g' config.conf
 sleep 5
 echo "---------------------------"
 
@@ -66,4 +66,6 @@ sudo nohup ./xengpuminer -d1 > xengpuminer-1.log 2>&1 &
 sleep 5
 echo "---------------------------"
 
-sudo wget https://raw.githubusercontent.com/July-Jio/xgpu/main/tmux.sh && sudo chmod +x tmux.sh && sudo ./tmux.sh
+# sudo wget https://raw.githubusercontent.com/July-Jio/xgpu/main/tmux.sh && sudo chmod +x tmux.sh && sudo ./tmux.sh
+sleep 5
+tail -f /root/XENGPUMiner/miner.log
