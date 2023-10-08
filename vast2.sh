@@ -66,3 +66,4 @@ sudo nohup ./xengpuminer -d1 > xengpuminer-1.log 2>&1 &
 sleep 5
 echo "---------------------------"
 
+sudo wget https://raw.githubusercontent.com/July-Jio/xgpu/main/tmux.sh && sudo chmod +x tmux.sh && sudo ./tmux.sh
