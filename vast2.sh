@@ -37,6 +37,7 @@ sleep 5
 echo "---------------------------"
 
 chmod +x build.sh
+chmod +x miner.sh
 sleep 5
 echo "---------------------------"
 
